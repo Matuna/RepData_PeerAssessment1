@@ -132,7 +132,7 @@ As can be seen, there is a slight variation in extreme values, the mean however,
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
-First lets add a new factor variable identifying each day as either a weekday or weekend:  
+1. First lets add a new factor variable identifying each day as either a weekday or weekend:  
 
 ```r
 # Set system to use english language for uniformity
