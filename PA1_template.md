@@ -156,7 +156,7 @@ names(newActivity)[4]<-"Weekday"
 With this new information we aggregate in order to obtain the average number of steps taken by interval, across all weekdays and across all weekend days:
 
 ```r
-newActiInter<-aggregate(newActivity$steps,by=list(interval=newActivity$interval,weekday=newActivity$Weekday),sum)
+newActiInter<-aggregate(newActivity$steps,by=list(interval=newActivity$interval,weekday=newActivity$Weekday),mean)
 names(newActiInter)[3]<-"steps"
 ```
 
